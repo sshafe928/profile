@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Londrina;
+    src: url(./Londrina_Outline/LondrinaOutline-Regular.ttf);
+}
+
+@font-face {
+    font-family: Unbuntu;
+    src: url(./Ubuntu_Condensed/UbuntuCondensed-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fcf6e4 0%, #fcf6e4 80%,rgb(10, 62, 34) 80%, rgb(10, 62, 34) 130%, #fcf6e4 130%, #fcf6e4 200%);
+
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Unbuntu;
+}
+
+header h1 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-right: 870px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 210px;
+    font-size: 18px;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.highlight {
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 45px;
+    background-color: #f7ca38;
+    color: black;
+    }
+
+    .section1{
+        font-family: Unbuntu;
+    }
+
+    .section1 h1{
+        font-size: 130px;
+        margin-left: 200px;
+        margin-top: -130px;
+    }
+
+    .section1 p{
+        font-size: 20px;
+        margin-left: 200px;
+    }
+
+    .section1 button{
+        display: inline-block;
+        padding: 8px 130px; 
+        background-color: rgb(255, 95, 41);
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 18px;
+        border: 2px solid rgb(253, 93, 39);
+        margin-left: 210px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+.section2 img{
+    float: left;
+    width: 340px;
+    margin-left: 60%;
+    margin-top: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#green{
+    z-index: -10;
+    margin-top: 217px;
+    max-height: 350px;
+}
+
+#black{
+    margin-top: 567px; 
+    max-height: 170px;
+    z-index: -11;
+}
+
+#beige{
+    z-index: -10;
+    margin-top: 224px;
+    max-height: 250px; 
+    max-width: 250px;
+    margin-left: 63%;
+
+}
+
+.section2 h1{
+    font-family: Unbuntu;
+    color: white;
+    margin-left: 62%;
+    font-size:55px;
+    margin-top: -40px;
+    margin-left: 1010px;
+}
+
+.section2 #contact{
+    font-family: Unbuntu;
+    color: white;
+    margin-left: 62%;
+    font-size:20px;
+    margin-left: 950px;
+}
